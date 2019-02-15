@@ -1,0 +1,14 @@
+{
+  "name": "typescript-promise-all-slow-repro",
+  "version": "0.0.0",
+  "description": "A reproduction of tsc performance issues with Promise.all()",
+  "repository": "git@github.com:jamescdavis/typescript-promise-all-slow-repro.git",
+  "license": "PUBLIC DOMAIN",
+  "author": "James C. Davis",
+  "scripts": {
+    "start": "tsc --extendedDiagnostics"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.0-dev.20190215"
+  }
+}
